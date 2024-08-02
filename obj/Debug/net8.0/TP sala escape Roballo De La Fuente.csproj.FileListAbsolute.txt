@@ -1,0 +1,30 @@
+Z:\TP sala escape Roballo De La Fuente\bin\Debug\net8.0\appsettings.Development.json
+Z:\TP sala escape Roballo De La Fuente\bin\Debug\net8.0\appsettings.json
+Z:\TP sala escape Roballo De La Fuente\bin\Debug\net8.0\TP sala escape Roballo De La Fuente.staticwebassets.runtime.json
+Z:\TP sala escape Roballo De La Fuente\bin\Debug\net8.0\TP sala escape Roballo De La Fuente.exe
+Z:\TP sala escape Roballo De La Fuente\bin\Debug\net8.0\TP sala escape Roballo De La Fuente.deps.json
+Z:\TP sala escape Roballo De La Fuente\bin\Debug\net8.0\TP sala escape Roballo De La Fuente.runtimeconfig.json
+Z:\TP sala escape Roballo De La Fuente\bin\Debug\net8.0\TP sala escape Roballo De La Fuente.dll
+Z:\TP sala escape Roballo De La Fuente\bin\Debug\net8.0\TP sala escape Roballo De La Fuente.pdb
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.GeneratedMSBuildEditorConfig.editorconfig
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.AssemblyInfoInputs.cache
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.AssemblyInfo.cs
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.csproj.CoreCompileInputs.cache
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.MvcApplicationPartsAssemblyInfo.cache
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.RazorAssemblyInfo.cache
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.RazorAssemblyInfo.cs
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\staticwebassets.build.json
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\staticwebassets.development.json
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\staticwebassets\msbuild.TP sala escape Roballo De La Fuente.Microsoft.AspNetCore.StaticWebAssets.props
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\staticwebassets\msbuild.build.TP sala escape Roballo De La Fuente.props
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TP sala escape Roballo De La Fuente.props
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TP sala escape Roballo De La Fuente.props
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\staticwebassets.pack.json
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\scopedcss\bundle\TP sala escape Roballo De La Fuente.styles.css
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\scopedcss\projectbundle\TP sala escape Roballo De La Fuente.bundle.scp.css
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.dll
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\refint\TP sala escape Roballo De La Fuente.dll
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.pdb
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.genruntimeconfig.cache
+Z:\TP sala escape Roballo De La Fuente\obj\Debug\net8.0\ref\TP sala escape Roballo De La Fuente.dll
