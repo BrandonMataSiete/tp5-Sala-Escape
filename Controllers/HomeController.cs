@@ -32,4 +32,50 @@ public class HomeController : Controller
     {
         return View();
     }
+    public ActionResult Comenzar()
+    {
+        int sala = Escape.GetEstadoJuego();
+        return RedirectToAction("Habitacion", new { sala = sala });
+    }
+
+    public ActionResult Habitacion(int sala)
+    {
+        if (sala != Escape.GetEstadoJuego())
+        {
+            sala = Escape.GetEstadoJuego();
+            ViewBag.Error = "Estás intentando resolver una sala incorrecta.";
+        }
+
+        return View($"Habitacion{sala}");
+    }
+
+    [HttpPost]
+    public ActionResult Habitacion(int sala, string clave)
+    {
+        if (sala != Escape.GetEstadoJuego())
+        {
+            sala = Escape.GetEstadoJuego();
+            ViewBag.Error = "Estás intentando resolver una sala incorrecta.";
+            return View($"Habitacion{sala}");
+        }
+
+        if (Escape.ResolverSala(sala, clave))
+        {
+            if (Escape.GetEstadoJuego() > 5)
+            {
+                return RedirectToAction("Victoria");
+            }
+            return RedirectToAction("Habitacion", new { sala = Escape.GetEstadoJuego() });
+        }
+        else
+        {
+            ViewBag.Error = "La respuesta es incorrecta. Inténtalo de nuevo.";
+            return View($"Habitacion{sala}");
+        }
+    }
+
+    public ActionResult Victoria()
+    {
+        return View();
+    }
 }

@@ -1,8 +1,17 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewBag.Title = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1>Bienvenido a El Cidi</h1>
+<img src="~/images/logo.png" alt="Logo del juego" />
+<p>Slogan del juego</p>
+
+<div>
+    <img src="~/images/desc1.png" alt="Descripción 1" />
+    <img src="~/images/desc2.png" alt="Descripción 2" />
+    <img src="~/images/desc3.png" alt="Descripción 3" />
 </div>
+
+<a href="@Url.Action("Tutorial")">Tutorial del juego</a>
+<a href="@Url.Action("Comenzar")">Inicio del juego</a>
+<a href="@Url.Action("Creditos")">Créditos</a>

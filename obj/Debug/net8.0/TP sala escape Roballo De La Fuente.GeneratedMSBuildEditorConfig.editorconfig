@@ -18,12 +18,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = z:\tp5-Sala-Escape
 build_property._RazorSourceGeneratorDebug = 
 
+[z:/tp5-Sala-Escape/Views/Home/creditos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjcmVkaXRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[z:/tp5-Sala-Escape/Views/Home/habitacion1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxoYWJpdGFjaW9uMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [z:/tp5-Sala-Escape/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [z:/tp5-Sala-Escape/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[z:/tp5-Sala-Escape/Views/Home/tutorial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx0dXRvcmlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [z:/tp5-Sala-Escape/Views/Shared/Error.cshtml]

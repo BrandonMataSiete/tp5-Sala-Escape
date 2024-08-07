@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\TP sala escape Roballo De La Fuente\\TP sala escape Roballo De La Fuente.csproj": {}
+    "Z:\\tp5-Sala-Escape\\TP sala escape Roballo De La Fuente.csproj": {}
   },
   "projects": {
-    "Z:\\TP sala escape Roballo De La Fuente\\TP sala escape Roballo De La Fuente.csproj": {
+    "Z:\\tp5-Sala-Escape\\TP sala escape Roballo De La Fuente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\TP sala escape Roballo De La Fuente\\TP sala escape Roballo De La Fuente.csproj",
+        "projectUniqueName": "Z:\\tp5-Sala-Escape\\TP sala escape Roballo De La Fuente.csproj",
         "projectName": "TP sala escape Roballo De La Fuente",
-        "projectPath": "Z:\\TP sala escape Roballo De La Fuente\\TP sala escape Roballo De La Fuente.csproj",
+        "projectPath": "Z:\\tp5-Sala-Escape\\TP sala escape Roballo De La Fuente.csproj",
         "packagesPath": "C:\\Users\\48522855\\.nuget\\packages\\",
-        "outputPath": "Z:\\TP sala escape Roballo De La Fuente\\obj\\",
+        "outputPath": "Z:\\tp5-Sala-Escape\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
