@@ -22,46 +22,39 @@ public class HomeController : Controller
     {
         return View();
     }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
+    
     public IActionResult Tutorial()
     {
         return View();
     }
+
     public ActionResult Comenzar()
     {
         int sala = Escape.GetEstadoJuego();
         return RedirectToAction("Habitacion", new { sala = sala });
     }
-
-    public ActionResult Habitacion(int sala)
+    public ActionResult Habitacion(int sala, string? clave = null, string[]? incognitasSalas = null)
     {
-        if (sala != Escape.GetEstadoJuego())
+        if (Request.Method == "GET")
         {
-            sala = Escape.GetEstadoJuego();
-            ViewBag.Error = "Estás intentando resolver una sala incorrecta.";
-        }
-
-        return View($"Habitacion{sala}");
-    }
-
-    [HttpPost]
-    public ActionResult Habitacion(int sala, string clave)
-    {
-        if (sala != Escape.GetEstadoJuego())
-        {
-            sala = Escape.GetEstadoJuego();
-            ViewBag.Error = "Estás intentando resolver una sala incorrecta.";
+            if (sala != Escape.GetEstadoJuego())
+            {
+                sala = Escape.GetEstadoJuego();
+                ViewBag.Error = "Estás intentando resolver una sala incorrecta.";
+            }
             return View($"Habitacion{sala}");
         }
 
-        if (Escape.ResolverSala(sala, clave))
+        if (sala != Escape.GetEstadoJuego())
         {
-            if (Escape.GetEstadoJuego() > 5)
+            sala = Escape.GetEstadoJuego();
+            ViewBag.Error = "MAL. Estas jugando una sala incorrecta.";
+            return View($"Habitacion{sala}");
+        }
+
+        if (Escape.ResolverSala(sala, clave!))
+        {
+            if (Escape.GetEstadoJuego() > incognitasSalas!.Length)
             {
                 return RedirectToAction("Victoria");
             }
@@ -69,11 +62,10 @@ public class HomeController : Controller
         }
         else
         {
-            ViewBag.Error = "La respuesta es incorrecta. Inténtalo de nuevo.";
+            ViewBag.Error = "MAL. Intente nuevamente";
             return View($"Habitacion{sala}");
         }
     }
-
     public ActionResult Victoria()
     {
         return View();

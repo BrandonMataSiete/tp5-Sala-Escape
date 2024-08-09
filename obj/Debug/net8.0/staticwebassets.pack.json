@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\tp5-Sala-Escape\\wwwroot\\img\\logo-cidi-nuevo-2021b.jpg",
+      "PackagePath": "staticwebassets\\img\\logo-cidi-nuevo-2021b.jpg"
+    },
+    {
       "Id": "Z:\\tp5-Sala-Escape\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
