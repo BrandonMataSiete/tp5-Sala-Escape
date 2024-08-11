@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\tp5-Sala-Escape\\TP sala escape Roballo De La Fuente.csproj": {}
+    "F:\\Cosas Feli\\Escuela\\Programacion\\4to año\\tp5-Sala-Escape\\TP sala escape Roballo De La Fuente.csproj": {}
   },
   "projects": {
-    "Z:\\tp5-Sala-Escape\\TP sala escape Roballo De La Fuente.csproj": {
+    "F:\\Cosas Feli\\Escuela\\Programacion\\4to año\\tp5-Sala-Escape\\TP sala escape Roballo De La Fuente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\tp5-Sala-Escape\\TP sala escape Roballo De La Fuente.csproj",
+        "projectUniqueName": "F:\\Cosas Feli\\Escuela\\Programacion\\4to año\\tp5-Sala-Escape\\TP sala escape Roballo De La Fuente.csproj",
         "projectName": "TP sala escape Roballo De La Fuente",
-        "projectPath": "Z:\\tp5-Sala-Escape\\TP sala escape Roballo De La Fuente.csproj",
-        "packagesPath": "C:\\Users\\48522855\\.nuget\\packages\\",
-        "outputPath": "Z:\\tp5-Sala-Escape\\obj\\",
+        "projectPath": "F:\\Cosas Feli\\Escuela\\Programacion\\4to año\\tp5-Sala-Escape\\TP sala escape Roballo De La Fuente.csproj",
+        "packagesPath": "C:\\Users\\PCGAMER\\.nuget\\packages\\",
+        "outputPath": "F:\\Cosas Feli\\Escuela\\Programacion\\4to año\\tp5-Sala-Escape\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\48522855\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\PCGAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

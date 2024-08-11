@@ -28,11 +28,12 @@ public class HomeController : Controller
         return View();
     }
 
-    public ActionResult Comenzar()
+        public ActionResult Comenzar()
     {
         int sala = Escape.GetEstadoJuego();
         return RedirectToAction("Habitacion", new { sala = sala });
     }
+
     public ActionResult Habitacion(int sala, string? clave = null, string[]? incognitasSalas = null)
     {
         if (Request.Method == "GET")
@@ -61,13 +62,9 @@ public class HomeController : Controller
             return RedirectToAction("Habitacion", new { sala = Escape.GetEstadoJuego() });
         }
         else
-        {
+        {   
             ViewBag.Error = "MAL. Intente nuevamente";
             return View($"Habitacion{sala}");
         }
-    }
-    public ActionResult Victoria()
-    {
-        return View();
     }
 }

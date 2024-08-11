@@ -1,0 +1,19 @@
+@{
+    ViewBag.Title = "Habitación 1";
+}
+    <h1>Primera pregunta</h1>
+    <p>La primera regla del CIDI dicta que "No se puede ... en el labo".</p>
+    <form method="post" action="/Home/Habitacion">
+        <input type="hidden" name="sala" value="1" />
+        <input type="text" name="clave" placeholder="Ingresa tu respuesta" />
+        <button type="submit">Validar</button>
+    </form>
+    <button onclick="alert('Pista 1: Ingerir alimento')">Pista 1</button>
+    <button onclick="alert('Pista 2: Mmm el tano')">Pista 2</button>
+
+    @if(ViewBag.Error != null)
+    {
+        <div style="color: red;">
+            <p>@ViewBag.Error</p>
+        </div>
+    }

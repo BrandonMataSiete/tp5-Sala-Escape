@@ -59,3 +59,34 @@ Z:\tp5-Sala-Escape\obj\Debug\net8.0\refint\TP sala escape Roballo De La Fuente.d
 Z:\tp5-Sala-Escape\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.pdb
 Z:\tp5-Sala-Escape\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.genruntimeconfig.cache
 Z:\tp5-Sala-Escape\obj\Debug\net8.0\ref\TP sala escape Roballo De La Fuente.dll
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\bin\Debug\net8.0\appsettings.Development.json
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\bin\Debug\net8.0\appsettings.json
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\bin\Debug\net8.0\TP sala escape Roballo De La Fuente.staticwebassets.runtime.json
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\bin\Debug\net8.0\TP sala escape Roballo De La Fuente.exe
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\bin\Debug\net8.0\TP sala escape Roballo De La Fuente.deps.json
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\bin\Debug\net8.0\TP sala escape Roballo De La Fuente.runtimeconfig.json
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\bin\Debug\net8.0\TP sala escape Roballo De La Fuente.dll
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\bin\Debug\net8.0\TP sala escape Roballo De La Fuente.pdb
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.GeneratedMSBuildEditorConfig.editorconfig
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.AssemblyInfoInputs.cache
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.AssemblyInfo.cs
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.csproj.CoreCompileInputs.cache
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.MvcApplicationPartsAssemblyInfo.cache
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.RazorAssemblyInfo.cache
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.RazorAssemblyInfo.cs
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.sourcelink.json
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\staticwebassets.build.json
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\staticwebassets.development.json
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\staticwebassets\msbuild.TP sala escape Roballo De La Fuente.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\staticwebassets\msbuild.build.TP sala escape Roballo De La Fuente.props
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TP sala escape Roballo De La Fuente.props
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TP sala escape Roballo De La Fuente.props
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\staticwebassets.pack.json
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\scopedcss\bundle\TP sala escape Roballo De La Fuente.styles.css
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\scopedcss\projectbundle\TP sala escape Roballo De La Fuente.bundle.scp.css
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.dll
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\refint\TP sala escape Roballo De La Fuente.dll
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.pdb
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\TP sala escape Roballo De La Fuente.genruntimeconfig.cache
+F:\Cosas Feli\Escuela\Programacion\4to año\tp5-Sala-Escape\obj\Debug\net8.0\ref\TP sala escape Roballo De La Fuente.dll
