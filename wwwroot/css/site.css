@@ -58,12 +58,11 @@ input[type="text"] {
 }
 
 button {
-  background-color: #e7e7e7;
-  border: 1px solid #ccc;
+  background-color: #cccccc;
+  border: 1px solid #aaaaaa;
   border-radius: 5px;
   padding: 10px 20px;
   font-size: 16px;
-  cursor: pointer;
   margin: 10px;
 }
 
@@ -77,7 +76,7 @@ button:hover {
 }
 
 .error {
-  color: red;
+  color: rgb(194, 0, 0);
   font-weight: bold;
   text-align: center;
   margin-top: 20px;

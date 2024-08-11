@@ -1,0 +1,19 @@
+@{
+    ViewBag.Title = "Habitacion 3";
+}
+    <h1>Tercera pregunta</h1>
+    <p>Está completamente prohibido el uso del ... en clase sin justificación previa.</p>
+    <form method="post" action="/Home/Habitacion">
+        <input type="hidden" name="sala" value="3" />
+        <input type="text" name="clave" placeholder="Ingresa tu respuesta" />
+        <button type="submit">Validar</button>
+    </form>
+    <button onclick="alert('Pista 1: es un dispositivo electrónico portátil, que puede permitir llamadas a través de una onda de radiofrecuencia, mientras el usuario se está moviendo dentro de un área de servicio telefónico.')">Pista 1</button>
+    <button onclick="alert('Pista 2: תָאִי')">Pista 2</button>
+
+    @if(ViewBag.Error != null)
+    {
+        <div style="color: red;">
+            <p>@ViewBag.Error</p>
+        </div>
+    }

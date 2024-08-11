@@ -1,0 +1,19 @@
+@{
+    ViewBag.Title = "Habitacion 4";
+}
+    <h1>Cuarta y ultima pregunta</h1>
+    <p>No te olvides de poner el ... en el DELETE FROM.</p>
+    <form method="post" action="/Home/Habitacion">
+        <input type="hidden" name="sala" value="4" />
+        <input type="text" name="clave" placeholder="Ingresa tu respuesta" />
+        <button type="submit">Validar</button>
+    </form>
+    <button onclick="alert('Pista 1: Jorge Rubira Santos hizo una popular cancion sobre el tema')">Pista 1</button>
+    <button onclick="alert('Pista 2: Fue la respuesta de una pregunta en un formulario de base de datos')">Pista 2</button>
+
+    @if(ViewBag.Error != null)
+    {
+        <div style="color: red;">
+            <p>@ViewBag.Error</p>
+        </div>
+    }
