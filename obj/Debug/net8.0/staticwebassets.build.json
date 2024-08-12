@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QBi/CFErhLLSZlcljzgQ2fXmgjYPwuf6IDb9SIxIwWw=",
+  "Hash": "05/ejC/PR577Q+sDWIcql5b5Lo1oLu5Mb6e/QyWGE0s=",
   "Source": "TP sala escape Roballo De La Fuente",
   "BasePath": "_content/TP sala escape Roballo De La Fuente",
   "Mode": "Default",
@@ -93,25 +93,6 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "F:\\Cosas Feli\\Escuela\\Programacion\\4to año\\tp5-Sala-Escape\\wwwroot\\img\\logo-cidi-nuevo-2021b.jpg",
-      "SourceId": "TP sala escape Roballo De La Fuente",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\Cosas Feli\\Escuela\\Programacion\\4to año\\tp5-Sala-Escape\\wwwroot\\",
-      "BasePath": "_content/TP sala escape Roballo De La Fuente",
-      "RelativePath": "img/logo-cidi-nuevo-2021b.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\logo-cidi-nuevo-2021b.jpg"
-    },
-    {
       "Identity": "F:\\Cosas Feli\\Escuela\\Programacion\\4to año\\tp5-Sala-Escape\\wwwroot\\img\\Logo.png",
       "SourceId": "TP sala escape Roballo De La Fuente",
       "SourceType": "Discovered",
@@ -129,25 +110,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Logo.png"
-    },
-    {
-      "Identity": "F:\\Cosas Feli\\Escuela\\Programacion\\4to año\\tp5-Sala-Escape\\wwwroot\\img\\Thumbs.db",
-      "SourceId": "TP sala escape Roballo De La Fuente",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\Cosas Feli\\Escuela\\Programacion\\4to año\\tp5-Sala-Escape\\wwwroot\\",
-      "BasePath": "_content/TP sala escape Roballo De La Fuente",
-      "RelativePath": "img/Thumbs.db",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Thumbs.db"
     },
     {
       "Identity": "F:\\Cosas Feli\\Escuela\\Programacion\\4to año\\tp5-Sala-Escape\\wwwroot\\js\\site.js",

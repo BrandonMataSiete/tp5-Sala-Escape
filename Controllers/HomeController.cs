@@ -33,39 +33,40 @@ namespace TP_sala_escape_Roballo_De_La_Fuente.Controllers
             int sala = Escape.GetEstadoJuego();
             return RedirectToAction("Habitacion", new { sala = sala });
         }
-
-        public ActionResult Habitacion(int sala, string? clave = null, string[]? incognitasSalas = null)
+        public IActionResult Habitacion(int sala, string clave)
         {
-            if (Request.Method == "GET")
-            {
-                if (sala != Escape.GetEstadoJuego())
-                {
-                    sala = Escape.GetEstadoJuego();
-                    ViewBag.Error = "Estás intentando resolver una sala incorrecta.";
-                }
-                return View($"Habitacion{sala}");
-            }
-
             if (sala != Escape.GetEstadoJuego())
             {
-                sala = Escape.GetEstadoJuego();
-                ViewBag.Error = "MAL. Estás jugando una sala incorrecta.";
-                return View($"Habitacion{sala}");
-            }
-
-            if (Escape.ResolverSala(sala, clave!))
-            {
-                if (Escape.GetEstadoJuego() > incognitasSalas!.Length)
-                {
-                    return RedirectToAction("Victoria");
-                }
                 return RedirectToAction("Habitacion", new { sala = Escape.GetEstadoJuego() });
             }
-            else
+
+            if (clave != null)
             {
-                ViewBag.Error = "MAL. Intente nuevamente";
-                return View($"Habitacion{sala}");
+                bool resuelta = Escape.ResolverSala(sala, clave);
+
+                if (resuelta)
+                {
+                    if (sala == 4)
+                    {
+                        Escape.InicializarJuego();
+                        return View("victoria");
+                    }
+                    else
+                    {
+                        return RedirectToAction("Habitacion", new { sala = sala + 1 });
+                    }
+                }
+                else
+                {
+                    ViewBag.Error = "MAL. Intenta nuevamente";
+                }
             }
+        return View($"Habitacion{sala}");
+        }
+
+        public IActionResult Creditos()
+        {
+            return View();
         }
     }
 }

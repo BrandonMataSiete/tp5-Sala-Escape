@@ -1,5 +1,7 @@
 html {
   font-size: 14px;
+  position: relative;
+  min-height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -12,11 +14,6 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
   margin-bottom: 60px;
   font-family: Arial, sans-serif;
@@ -24,6 +21,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .container {
   width: 80%;
   margin: auto;
@@ -32,10 +30,19 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+.container-index {
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
 h1 {
   text-align: center;
   color: #333;
+  margin-bottom: 20px;
 }
 
 p {
@@ -80,4 +87,82 @@ button:hover {
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
+}
+
+.container-tutorial, .container-creditos {
+  width: 80%;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.content-box {
+  background-color: #e6edf3;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-box h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.content-box p {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 18px;
+}
+
+.content-box button {
+  background-color: #e7e7e7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.content-box button:hover {
+  background-color: #ddd;
+}
+
+.logo img {
+  max-width: 200%;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  background-color: #bebebe;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #333;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn-primary {
+  background-color: #28e037;
+  border: 2px #1eb332;
+  color: #e7e7e7;
+}
+
+.btn-primary:hover {
+  background-color: #40f140;
 }

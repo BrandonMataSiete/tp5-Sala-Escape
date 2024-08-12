@@ -2,12 +2,10 @@
     ViewBag.Title = "Tutorial";
 }
 
-<h1>Tutorial del juego</h1>
-
-<p>Breve reseña explicando de qué trata la temática elegida.</p>
-
-<div>
-    <img src="~/images/scene1.png" alt="Escena 1" />
-    <img src="~/images/scene2.png" alt="Escena 2" />
-    <img src="~/images/scene3.png" alt="Escena 3" />
+<div class="container-tutorial">
+    <div class="content-box">
+        <h1>Tutorial</h1>
+        <p>El malvado brujo Slener te atrapó en su jaula mágica. Para salir de esta tienes que responder sus preguntas. Tienes dos pistas por pregunta para ayudarte. ¡Buena suerte!</p>
+        <button onclick="location.href='@Url.Action("Index", "Home")'">Volver</button>
+    </div>
 </div>

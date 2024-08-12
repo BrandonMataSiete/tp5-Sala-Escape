@@ -5,7 +5,7 @@ namespace TP_sala_escape_Roballo_De_La_Fuente.Models
         private static string[] incognitasSalas = new string[0];
         private static int estadoJuego = 1;
 
-        private static void InicializarJuego()
+        public static void InicializarJuego()
         {
             incognitasSalas = new string[]
             {
@@ -17,6 +17,11 @@ namespace TP_sala_escape_Roballo_De_La_Fuente.Models
         public static int GetEstadoJuego()
         {
             return estadoJuego;
+        }
+
+        public static int GetTotalSalas()
+        {
+            return incognitasSalas.Length;
         }
 
         public static bool ResolverSala(int sala, string incognita)
