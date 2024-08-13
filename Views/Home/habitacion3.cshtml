@@ -3,17 +3,18 @@
 }
 <div class="container"> 
     <h1>Tercera pregunta</h1>
-    <p>Está completamente prohibido el uso del ... en clase sin justificación previa.</p>
-
+    <p>¿Que es este lugar?</p>
+    <div class="img">
+        <img src="~/img/tano.jpg" alt="Tano">
+    </div>
     <form method="post" action="/Home/Habitacion">
         <input type="hidden" name="sala" value="3" />
         <input type="text" name="clave" placeholder="Ingresa tu respuesta" />
         <button type="submit">Validar</button>
     </form>
-    
     <div class="pistas">
-    <button onclick="alert('Pista 1: es un dispositivo electrónico portátil, que puede permitir llamadas a través de una onda de radiofrecuencia, mientras el usuario se está moviendo dentro de un área de servicio telefónico.')">Pista 1</button>
-    <button onclick="alert('Pista 2: תָאִי')">Pista 2</button>
+    <button onclick="alert('Pista 1: Mi casa')">Pista 1</button>
+    <button onclick="alert('Pista 2: El de arriba')">Pista 2</button>
     </div>
 
     @if(ViewBag.Error != null)

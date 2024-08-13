@@ -9,7 +9,7 @@ namespace TP_sala_escape_Roballo_De_La_Fuente.Models
         {
             incognitasSalas = new string[]
             {
-                "Comer", "Sucio", "Celular", "Where"
+                "100", "Harina", "El tano", "Mila napo"
             };
             estadoJuego = 1;
         }
